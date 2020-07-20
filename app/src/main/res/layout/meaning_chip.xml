@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ (c) VAP Communications Group, 2020
+  -->
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="data"
+            type="online.vapcom.skyword.data.Meaning" />
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener"/>
+    </data>
+
+<com.google.android.material.chip.Chip
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@{data.translation}"
+    android:onClick="@{clickListener}"
+    tools:text="дождь"
+    />
+</layout>

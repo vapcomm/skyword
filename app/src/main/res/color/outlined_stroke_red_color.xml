@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ (c) VAP Communications Group, 2020
+  -->
+
+<!-- Селектор цветов рамки полей ввода текста -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/colorRed" android:state_focused="true"/>
+    <item android:color="@color/colorRed" android:state_hovered="true"/>
+    <item android:color="@color/colorRed" android:state_enabled="false"/>
+    <item android:color="@color/colorRed"/>
+</selector>

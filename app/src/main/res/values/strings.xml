@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Skyword</string>
+    <string name="error_description">Error code: %1$d\nDescription: %2$s</string>
+    <string name="close">Закрыть</string>
+    <string name="request_error">Request error</string>
+    <string name="try_again">Try again</string>
+    <string name="call_support">If error repeats, contact technical support</string>
+    <string name="report_an_error">Report an error</string>
+    <string name="error_occurred">Error occurred</string>
+    <string name="what_to_do">What you can do:\n1. Restart app.\n2. Reinstall app.\n3. If problem not solved, contact support.</string>
+    <string name="more">More</string>
+    <string name="hide">Hide</string>
+    <string name="send_report">Send report</string>
+    <string name="error">Error</string>
+    <string name="connection_error">Unable to connect</string>
+    <string name="check_network_connection">Check internet connection and try again</string>
+    <string name="server_side_problem">Something happened on our side</string>
+    <string name="our_problem">Don\'t worry, it\'s not yours, it\'s our problem.\nWait a little, everything will work soon.</string>
+    <string name="client_problem">Something wrong with app</string>
+    <string name="retry_or_update">Try to reinstall app.\nIf problem not solved, contact support.</string>
+    <string name="no_server_response">No response from server</string>
+    <string name="try_later">The network or server may be overloaded.\nTry again later.</string>
+
+    <string name="enter_word">Enter a word</string>
+    <string name="translate">Translate</string>
+    <string name="word_not_found">Word not found</string>
+    <string name="search">Search</string>
+    <string name="meaning">Meaning</string>
+
+</resources>

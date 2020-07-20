@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ (c) VAP Communications Group, 2020
+  -->
+
+<resources>
+    <string name="app_name">Skyword</string>
+    <string name="close">Закрыть</string>
+
+    <string name="request_error">Ошибка выполнения</string>
+    <string name="try_again">Попробуйте совершить операцию ещё раз через некоторое время</string>
+    <string name="call_support">При повторении ошибки обратитесь в техподдержку</string>
+    <string name="report_an_error">Cообщить об ошибке</string>
+
+    <string name="error_occurred">Возникла ошибка</string>
+    <string name="what_to_do">Что можно сделать:\n1. Попробуйте перезапустить приложение.\n2. Попробуйте переустановить приложение.\n3. Если проблема останется, обратитесь в техподдержку.</string>
+    <string name="more">Ещё</string>
+    <string name="hide">Скрыть</string>
+    <string name="error_description">Код ошибки: %1$d\nОписание: %2$s</string>
+    <string name="send_report">Отправить отчёт</string>
+
+    <string name="error">Ошибка</string>
+    <string name="connection_error">Невозможно установить сетевое соединение</string>
+    <string name="check_network_connection">Проверьте настройки подключения к сети и повторите операцию</string>
+    <string name="server_side_problem">Что-то пошло не так на нашей стороне</string>
+    <string name="our_problem">Не беспокойтесь, это не ваша, это наша проблема.\nПодождите, скоро всё заработает.</string>
+    <string name="client_problem">Что-то не так с приложением</string>
+    <string name="retry_or_update">Попробуйте обновить приложение.\nЕсли ошибка повторяется, обратитесь в техподдержку.</string>
+    <string name="no_server_response">Нет ответа от сервера</string>
+    <string name="try_later">Возможно сеть или сервер перегружены.\nПопробуйте повторить позже.</string>
+
+    <string name="enter_word">Введите слово для поиска</string>
+    <string name="translate">Перевести</string>
+    <string name="word_not_found">Слово не найдено</string>
+    <string name="search">Поиск</string>
+    <string name="meaning">Значение</string>
+
+
+</resources>

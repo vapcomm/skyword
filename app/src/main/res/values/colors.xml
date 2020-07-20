@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#29b6f6</color>
+    <color name="colorPrimaryDark">#0086c3</color>
+    <color name="colorAccent">#73e8ff</color>
+    <color name="colorOnPrimary">#2C2C2C</color>
+    <color name="colorError">#ffb71c1c</color>
+
+    <color name="colorRed">#EC231A</color>
+    <color name="colorTextDarkGray">#273D52</color>
+    <color name="colorTextGray">#808080</color>
+
+    <color name="colorDivider">#EEEEEE</color>
+
+    <color name="colorTextFrame">#BCD7F5</color>
+    <color name="colorTextFrameDisabled">#E5ECED</color>
+    <color name="colorTextLayoutHint">#3E3E3E</color>
+
+</resources>

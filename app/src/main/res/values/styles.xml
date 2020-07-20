@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Основная тема приложения -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <item name="alertDialogTheme">@style/AlertDialogCustom</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.ActionBar" >
+        <!-- цвет фона -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!-- цвет title -->
+        <item name="android:textColorPrimary">@color/colorTextDarkGray</item>
+        <!-- цвет стрелки UP -->
+        <item name="colorControlNormal">@color/colorTextDarkGray</item>
+    </style>
+
+    <!-- стиль меню тулбара -->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+
+    <!--  Диалоги, меняем цвет кнопок -->
+    <style name="AlertDialogCustom" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="colorPrimary">@color/colorTextDarkGray</item>
+    </style>
+
+    <!-- стиль текстовых полей ввода -->
+    <style name="TextInputLayout.OutlinedBox" parent="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox" >
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="boxStrokeColor">@color/outlined_stroke_color</item>
+        <item name="endIconMode">clear_text</item>
+        <item name="endIconTint">@color/colorTextFrame</item>
+        <item name="hintTextColor">@color/colorTextLayoutHint</item>
+    </style>
+
+    <style name="ListItemText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/colorTextDarkGray</item>
+    </style>
+
+    <style name="GrayText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/colorTextGray</item>
+    </style>
+
+    <style name="WordHeader" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="WordSubhead" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <style name="Transcription" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/colorTextDarkGray</item>
+    </style>
+
+
+</resources>
