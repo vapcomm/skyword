@@ -15,7 +15,7 @@ import androidx.databinding.BindingAdapter
 import androidx.databinding.DataBindingUtil
 import androidx.databinding.ViewDataBinding
 import androidx.databinding.library.baseAdapters.BR
-import coil.api.load
+import coil.load
 import com.google.android.material.textfield.TextInputLayout
 import online.vapcom.skyword.R
 import kotlin.math.roundToInt
